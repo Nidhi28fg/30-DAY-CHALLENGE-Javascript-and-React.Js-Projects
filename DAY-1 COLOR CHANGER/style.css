@@ -1,37 +1,70 @@
-.button {
-    border: 2px solid;
-    /* box-sizing: border-box; */
-    /* display: inline-block; */
-    height: 60px;
-    width: 60px;
-    padding: 2px;
-    margin: 2px;
-    text-decoration: color-mix(in srgb, color 20%, color 40%);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
 
-#yellow{
-    background-color: yellow;
-}
-
-#blue{
-    background-color: blue;
-}
-
-#pink{
-    background-color: pink;
-}
-
-#skyblue{
-    background-color: aqua;
-}
-
-h1{
+h1 {
     text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    gap: 20px;
+    border: #333 2px solid;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: perspective(600px) rotateX(0) rotateY(0);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    transform: perspective(600px) rotateX(-15deg) rotateY(15deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#aqua {
+    background-color: aqua;
 }
