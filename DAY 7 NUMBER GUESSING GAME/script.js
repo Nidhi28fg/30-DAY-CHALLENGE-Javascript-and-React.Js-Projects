@@ -1,4 +1,4 @@
-let randowNumber = parseInt((Math.random()*100) + 1);
+let randowNumber = parseInt(Math.random()*100 + 1);
 
 const input = document.querySelector(".input");
 const submit = document.querySelector(".submit");
@@ -16,7 +16,7 @@ if (playgame) {
     submit.addEventListener("click", function(e){
         e.preventDefault;
         const guess = input.value;
-        checkNumber(guess)
+        checkNumber(guess);
     } )
 }
 
@@ -28,20 +28,34 @@ function checkNumber(guess){
     } else if ( guess > 100){
         alert(`Your number ${guess} is greater than 100`);
     } else (){
-        
+        inputArray.push
+        attemp++
+        correctNumber(guess);
     }
 };
 
 function correctNumber(guess){
-    
-}
+    if (guess === randowNumber){
+        p.innerHTML = ` you guess correct number`;
+        endgame();
+    } else if (guess < randowNumber) {
+        p.innerHTML = ` You choose smaller than Number.`
+    } else if ( guess > randowNumber){
+        p.innerHTML = ` You choose bigger Number than actual Number`
+    }
+};
 
-function attempreamain() {
+function attempreamain(guess) {
+    if( inputArray.index === 11) {
+        endgame(guess);
+    } else {
 
-}
+    }
+};
 
 function endgame(guess){
 
+    let playgame = false
 };
 
 function newgame(guess){
