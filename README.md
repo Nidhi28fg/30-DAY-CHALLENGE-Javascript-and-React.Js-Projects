@@ -18,6 +18,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 **Day 4:** **Digital Clock**
 - Build a digital clock that displays the current time
 - Use `setInterval` to update the time every second
+  ![image](https://github.com/user-attachments/assets/94d0fb6e-e963-4c7f-9e54-7d4749105639)
 
 **Day 5:** **Weather App (Part 1)**
 - Fetch weather data from a public API (e.g., OpenWeatherMap)
