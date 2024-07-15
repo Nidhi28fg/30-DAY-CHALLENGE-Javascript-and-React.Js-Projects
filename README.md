@@ -1,9 +1,11 @@
 Here's a 30-day JavaScript project plan that will take you from beginner to advanced levels, incorporating React.js as you progress. Each day will focus on a specific project or concept, progressively increasing in complexity.
 
 ### Week 1: Fundamentals and Basic JavaScript Projects
-**Day 1:** **Environment Setup and Basics**
-- Set up your development environment with VSCode, Node.js, and npm
-- Create a simple JavaScript file to print "Hello, World!" to the console
+**Day 1:** **color changer**
+![alt text](image.png)
+
+**Day 2:** **BMI CALCULATOR**
+![alt text](image-1.png)
 
 **Day 2:** **Calculator (Basic)**
 - Build a basic calculator using vanilla JavaScript

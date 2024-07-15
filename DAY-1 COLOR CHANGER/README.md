@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 Here are the top 10 interview questions and answers related to the project involving JavaScript event handling and DOM manipulation:
 
 1. **Question:** What is the purpose of `querySelectorAll` in JavaScript?
