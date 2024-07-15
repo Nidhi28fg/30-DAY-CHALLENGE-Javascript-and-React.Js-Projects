@@ -1,4 +1,4 @@
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/ac05dcb1-b79b-4d2a-8263-8ecfe6bc282f)
 
 ## Interview Question and Answer
 
