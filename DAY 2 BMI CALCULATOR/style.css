@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: #F2F2F2; /* Light gray */
+    background-color: #f2f2f2e0; /* Light gray */
     perspective: 1000px; /* Creates a 3D perspective */
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #002F6C; /* Navy blue */
+    background-color: #3f86e3d2; /* Navy blue */
   color: white;
     padding: 20px;
     border-radius: 10px;
@@ -41,8 +41,10 @@ body {
   }
   
   input {
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.641);
+    height: 20px;
+    margin: 20px;
   }
   
   button {
