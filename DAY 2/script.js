@@ -1,19 +1,22 @@
 const forms = document.querySelectorAll("form");
+forms.forEach(form => {
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
 
-forms.addEventLister('submit', function (e) {
-    e.preventDefault();
-    const height = parseInt(document.querySelector(".height").value);
-    const weight = parseInt(document.querySelector(".weight").value);
-    const result = document.querySelector(".result");
+        const heightInput = document.getElementById("height");
+        const weightInput = document.getElementById("weight");
+        const resultElement = document.querySelector(".result");
 
-    if (height === "" || height <= 0 || isNaN(height)){
-        result.innerHTML=` Please put valid number ${height};
-    }else if (weightInput.value ==="" || weightInput.value <= 0 || isNaN(weightInput.value)){
-        result.innerHTML=` Please put valid number ${weight};
-    } else {
-        const finalresult = (weight / ((height*height)/10000)).toFixed(2);
-        result.innerHTML=` <span> ${finalresult} </span>`;
-    }
+        const height = parseInt(heightInput.value);
+        const weight = parseInt(weightInput.value);
 
-
+        if (isNaN(height) || height <= 0 || height === " ") {
+            resultElement.textContent = "Please enter a valid height.";
+        } else if (isNaN(weight) || weight <= 0 || weight === " ") {
+            resultElement.textContent = "Please enter a valid weight.";
+        } else {
+            const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+            resultElement.textContent = `Your BMI is: ${bmi}`;
+        }
+    });
 });
