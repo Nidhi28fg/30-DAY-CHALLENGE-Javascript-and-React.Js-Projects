@@ -2,11 +2,10 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 
 ### Week 1: Fundamentals and Basic JavaScript Projects
 **Day 1:** **color changer**
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/360b8b88-c0dd-4296-b7ec-770a13ea7181)
 
 **Day 2:** **BMI CALCULATOR**
-![alt text](image-1.png)
-
+![image](https://github.com/user-attachments/assets/942e99e2-2969-4256-9a37-f680e13e2a9b)
 **Day 2:** **Calculator (Basic)**
 - Build a basic calculator using vanilla JavaScript
 - Implement addition, subtraction, multiplication, and division
