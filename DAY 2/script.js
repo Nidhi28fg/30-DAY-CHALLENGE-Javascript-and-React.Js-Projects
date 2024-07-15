@@ -8,6 +8,7 @@ forms.forEach(form => {
     const resultElement = document.querySelector(".result");
     const note = document.querySelector(".note");
 
+
     const height = parseInt(heightInput.value);
     const weight = parseInt(weightInput.value);
 
