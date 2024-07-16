@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button, input[type="text"],
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 2px solid #ff9a9e;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    background-color: #fdfbfb;
+}
+
+button, input[type="submit"] {
+    background-color: #ff9a9e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #fd7a7e;
+    /* transform: scale(1.05); */
+}
+
+section {
+    margin-top: 20px;
+}
+
+.resultPara {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.previousValue, .remaineAttemp {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.loworHighNumber {
+    font-size: 18px;
+    color: #666;
+}

@@ -1,63 +1,89 @@
-let randowNumber = parseInt(Math.random()*100 + 1);
+let randomNumber = parseInt(Math.random() * 100 + 1);
 
-const input = document.querySelector(".input");
-const submit = document.querySelector(".submit");
-const previousValue = document.querySelector(".previousValue");
-const remaineAttemp = document.querySelector(".remaineAttemp");
+const input = document.querySelector('#input');
+const form = document.querySelector('form');
+const previousValue = document.querySelector('.previousValue');
+const remainAttempt = document.querySelector('.remaineAttemp');
+const lowOrHighNumber = document.querySelector('.loworHighNumber');
+const startOver = document.querySelector('.resultPara');
 
-let p = document.createElement("p");
+let p = document.createElement('p');
 
-let playgame = true;
+let playGame = true;
 
 let inputArray = [];
-let attemp = 1;
+let attempt = 1;
 
-if (playgame) {
-    submit.addEventListener("click", function(e){
-        e.preventDefault;
-        const guess = input.value;
+if (playGame) {
+    form.addEventListener('submit', function(e){
+        e.preventDefault();
+        const guess = parseInt(input.value);
         checkNumber(guess);
-    } )
+    });
 }
 
-function checkNumber(guess){
-    if (isNaN(guess)){
-        alert(`Please entre valid Number`);
+function checkNumber(guess) {
+    if (isNaN(guess)) {
+        alert(`Please enter a valid number`);
     } else if (guess < 1) {
-        alert(`Please entre a valid Number`);
-    } else if ( guess > 100){
+        alert(`Please enter a number greater than 0`);
+    } else if (guess > 100) {
         alert(`Your number ${guess} is greater than 100`);
-    } else (){
-        inputArray.push
-        attemp++
-        correctNumber(guess);
-    }
-};
-
-function correctNumber(guess){
-    if (guess === randowNumber){
-        p.innerHTML = ` you guess correct number`;
-        endgame();
-    } else if (guess < randowNumber) {
-        p.innerHTML = ` You choose smaller than Number.`
-    } else if ( guess > randowNumber){
-        p.innerHTML = ` You choose bigger Number than actual Number`
-    }
-};
-
-function attempreamain(guess) {
-    if( inputArray.index === 11) {
-        endgame(guess);
     } else {
-
+        inputArray.push(guess);
+        if (attempt === 11) {
+            addedValue(guess);
+            displayMessage(`Game over. Random number was ${randomNumber}`);
+            endGame(guess);
+        } else {
+            addedValue(guess);
+            correctNumber(guess);
+        }
     }
-};
+}
 
-function endgame(guess){
+function correctNumber(guess) {
+    if (guess === randomNumber) {
+        displayMessage(`You guessed the correct number!`);
+        endGame(guess);
+    } else if (guess < randomNumber) {
+        displayMessage(`You guessed a smaller number.`);
+    } else if (guess > randomNumber) {
+        displayMessage(`You guessed a bigger number than the actual number.`);
+    }
+}
 
-    let playgame = false
-};
+function addedValue(guess) {
+    input.value = '';
+    previousValue.innerHTML += ` ${guess} `;
+    attempt++;
+    remainAttempt.innerHTML = `Your Remaine Attempt ${11 - attempt}`;
+}
 
-function newgame(guess){
+function displayMessage(message) {
+    lowOrHighNumber.innerHTML = `<h2>${message}</h2>`;
+}
 
+function endGame(guess) {
+    input.value = '';
+    input.setAttribute('disabled', '');
+    p.classList.add('button');
+    p.innerHTML = '<button id="newGame">Start New Game</button>';
+    startOver.appendChild(p);
+    playGame = false;
+    newGame();
+}
+
+function newGame() {
+    const newGameButton = document.querySelector('#newGame');
+    newGameButton.addEventListener('click', function(e) {
+        randomNumber = parseInt(Math.random() * 100 + 1);
+        inputArray = [];
+        attempt = 1;
+        previousValue.innerHTML = '';
+        remainAttempt.innerHTML = `Your Remaine Attempt ${11 - attempt}`;
+        input.removeAttribute('disabled');
+        startOver.removeChild(p);
+        playGame = true;
+    });
 }

@@ -8,15 +8,20 @@
 </head>
 <body>
     <header>
-    <form><h1>Number GUESSING GAME</h1>
-    <p> Guess the Number 1 to 100</p>
-    <input type="text" class="input"/>
-    <input type="submit" class="submit"/>
-</form></header>
-<section>
-<h3 class="previousValue"> Previous Value</h3>
-<h2 class="remaineAttemp"> Remaine attempt</h2>
-</section>
-<script src="script.js"></script>
+    <form>
+        <h1>Number GUESSING GAME</h1>
+        <p> Guess the Number 1 to 100</p>
+        <input type="text" id="input"/>
+        <input type="submit" id="submit" value="Submit"/>
+    </form>
+    </header>
+    <section>
+        <div class="resultPara">
+            <h3 class="previousValue"> Your Guess Value</h3>
+            <h2 class="remaineAttemp"> Your Remaine Attempt </h2>
+            <p class="loworHighNumber"></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
