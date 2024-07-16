@@ -31,6 +31,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 **Day 7:** **Number Guessing Game**
 - Create a number guessing game where the user has to guess a random number between 1 and 100
 - Provide feedback on whether the guess is too high or too low
+![image](https://github.com/user-attachments/assets/85fa72fc-188a-43bb-a335-389ae884d338)
 
 ### Week 2: Intermediate JavaScript Projects
 **Day 8:** **Quiz App (Part 1)**
