@@ -10,3 +10,22 @@ const randomColor = function () {  // Define a function named randomColor
   
   console.log(randomColor());        // Call the function and log the result
   
+  let colorchang;
+  const startColorChange = function(){
+    if (!colorchang){
+    colorchang = setInterval(backgroundChange, 1000);
+  }
+};
+
+function backgroundChange() {
+  document.body.style.backgroundColor = randomColor();
+}
+
+const stopColorChange = function () {
+    clearInterval(colorchang);
+    colorchang = null;
+  };
+
+  document.querySelector(".start").addEventListener('click', startColorChange);
+  
+  document.querySelector(".stop").addEventListener('click', stopColorChange);

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ h1 {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.start, .stop {
+    background-color: #3498db;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px #2980b9;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+
+.stop {
+    background-color: #e74c3c;
+    box-shadow: 0 6px #c0392b;
+}
+
+.start:hover, .stop:hover {
+    transform: translateY(-4px);
+}
+
+.start:active, .stop:active {
+    box-shadow: 0 3px #1c5985;
+    transform: translateY(4px);
+}
+
+.stop:active {
+    box-shadow: 0 3px #962d22;
+}
