@@ -33,6 +33,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 - Handle errors and edge cases
 
 **Day 6 - PART-2:** **API PROJECT**
+![image](https://github.com/user-attachments/assets/1b87007a-34ef-48b7-82ad-761278c58d37)
 
 
 **Day 7:** **Number Guessing Game**
