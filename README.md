@@ -32,6 +32,9 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 - Add a search functionality to fetch weather data for different locations
 - Handle errors and edge cases
 
+**Day 6 - PART-2:** **API PROJECT**
+
+
 **Day 7:** **Number Guessing Game**
 - Create a number guessing game where the user has to guess a random number between 1 and 100
 - Provide feedback on whether the guess is too high or too low
