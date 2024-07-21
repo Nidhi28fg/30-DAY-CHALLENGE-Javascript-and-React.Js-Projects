@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Calculator</h1>
-    <input type="text" value=""/>
-<div>
-    <input type="button" value="7"/>
-    <input type="button" value="8"/>
-    <input type="button" value="9"/>
-    <input type="button" value="X"/></div>
-    <div>
-        <input type="button" value="4"/>
-        <input type="button" value="5"/>
-        <input type="button" value="6"/>
-        <input type="button" value="/"/></div>
-        <div>
-            <input type="button" value="1"/>
-            <input type="button" value="2"/>
-            <input type="button" value="3"/>
-            <input type="button" value="-"/></div>
-            <div>
-                <input type="button" value="0"/>
-                <input type="button" value="."/>
-                <input type="button" value="+"/>
-                <input type="button" value="="/></div>
-                <div>
-                    <input type="button" value="AC"/>
-                    <input type="button" value="DE"/>
-                    <input type="button" value="%"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1> 
+    <input type="text" id="input">
+    <div class="buttons">
+      <button type="button"  >7 </button>
+      <button type="button"  > 8</button>
+      <button type="button"  > 9</button>
+      <button type="button" clase="operater" > *</button>
+    </div>
+    <div class="buttons">
+      <button type="button"  > 4</button>
+      <button type="button"  > 5</button>
+      <button type="button"  > 6</button>
+      <button type="button" clase="operater" > /</button>
+    </div>
+    <div class="buttons">
+      <button type="button"  > 1</button>
+      <button type="button" > 2</button>
+      <button type="button"  > 3</button>
+      <button type="button" clase="operater" > -</button>
+    </div>
+    <div class="buttons">
+      <button type="button"  > 0</button>
+      <button type="button"  > .</button>
+      <button type="button" clase="operater" > +</button>
+      <button type="button"  id="eqid"> =</button>
+    </div>
+    <div class="buttons">
+      <button type="button" clase="button"  >% </buttone>
+        <button type="button" clase="button"  >AC </buttone>
+            <button type="button" clase="button"  >DEL </buttone>
+                <button type="button" clase="button" id="pluseMinus" >-/+ </buttone>
             </div>
-                                        
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
