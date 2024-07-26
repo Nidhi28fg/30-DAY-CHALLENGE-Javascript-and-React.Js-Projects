@@ -4,4 +4,8 @@
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.6"
   }
+  "scripts": {
+    "start": "node index.js"
+  }
 }
+

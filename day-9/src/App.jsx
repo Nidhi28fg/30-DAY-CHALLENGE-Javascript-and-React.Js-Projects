@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import index from "index.css";
 
 
 
@@ -18,8 +19,8 @@ function App() {
 
 
   return (
-    <>
-   <h1>You can add number 0 to 20</h1>
+    < >
+   <h1 className='bg-green-200'>You can add number 0 to 20</h1>
    <button onClick={add}> Add Number {counter}</button>
    <button onClick={ruduce}> Reduce Number {counter}</button>
 </>
