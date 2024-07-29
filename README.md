@@ -39,6 +39,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 **Day-10 color changer**
 
 **Day 11:** **PASSWORD GENRATOR**
+
 ![image](https://github.com/user-attachments/assets/d077cd4c-6de2-4ae2-b7c3-160fc006b5d0)
 
 
