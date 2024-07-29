@@ -7,32 +7,18 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 **Day 2:** **BMI CALCULATOR**
 ![image](https://github.com/user-attachments/assets/942e99e2-2969-4256-9a37-f680e13e2a9b)
 
-**Day 2:** **Calculator (Basic)**
+**Day 3:** **Calculator (Basic)**
 - Build a basic calculator using vanilla JavaScript
 - Implement addition, subtraction, multiplication, and division
 ![image](https://github.com/user-attachments/assets/852fe64f-4cd1-4cab-8067-a331fb78102c)
-
-
-**Day 3:** **To-Do List (Basic)**
-- Create a to-do list with add and delete functionality
-- Use arrays to manage the list items
 
 **Day 4:** **Digital Clock**
 - Build a digital clock that displays the current time
 - Use `setInterval` to update the time every second
   ![image](https://github.com/user-attachments/assets/94d0fb6e-e963-4c7f-9e54-7d4749105639)
 
-**Day 4(2):** **Background color changer in every second**
+**Day 5:** **Background color changer in every second**
   ![image](https://github.com/user-attachments/assets/abb7e3d1-f5c4-42a9-b2b0-5d01b1d5db9e)
-
-
-**Day 5:** **Weather App (Part 1)**
-- Fetch weather data from a public API (e.g., OpenWeatherMap)
-- Display the current weather for a specific location
-
-**Day 6:** **Weather App (Part 2)**
-- Add a search functionality to fetch weather data for different locations
-- Handle errors and edge cases
 
 **Day 6 - PART-2:** **API PROJECT**
 ![image](https://github.com/user-attachments/assets/1b87007a-34ef-48b7-82ad-761278c58d37)
@@ -43,18 +29,14 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 - Provide feedback on whether the guess is too high or too low
 ![image](https://github.com/user-attachments/assets/85fa72fc-188a-43bb-a335-389ae884d338)
 
-### Week 2: Intermediate JavaScript Projects
+### Week 2: React Projects
 **Day 8:** **Quiz App (Part 1)**
 - Create a quiz application with multiple-choice questions
 - Display one question at a time with options
 
-**Day 9:** **Quiz App (Part 2)**
-- Track the score and display the result at the end
-- Use an array to store questions and answers
+**Day-9 ADD REDUCE NUMBER**
 
-**Day 10:** **Memory Game**
-- Build a memory card game (like the classic Concentration game)
-- Display a grid of cards that flip on click
+**Day-10 color changer**
 
 **Day 11:** **PASSWORD GENRATOR**
 ![image](https://github.com/user-attachments/assets/d077cd4c-6de2-4ae2-b7c3-160fc006b5d0)
