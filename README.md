@@ -52,13 +52,13 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 - Track the score and display the result at the end
 - Use an array to store questions and answers
 
-**Day 10:** **Memory Game (Part 1)**
+**Day 10:** **Memory Game**
 - Build a memory card game (like the classic Concentration game)
 - Display a grid of cards that flip on click
 
-**Day 11:** **Memory Game (Part 2)**
-- Implement the logic to check for matching pairs
-- Track the number of attempts and display the result
+**Day 11:** **PASSWORD GENRATOR**
+![image](https://github.com/user-attachments/assets/d077cd4c-6de2-4ae2-b7c3-160fc006b5d0)
+
 
 **Day 12:** **Recipe App (Part 1)**
 - Create a recipe search app using an API (e.g., Edamam)
