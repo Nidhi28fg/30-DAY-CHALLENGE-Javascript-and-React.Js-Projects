@@ -37,6 +37,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 **Day-9 ADD REDUCE NUMBER**
 
 **Day-10 color changer**
+![image](https://github.com/user-attachments/assets/a5da2f89-e85c-4d31-82d5-e91e4cc234e5)
 
 **Day 11:** **PASSWORD GENRATOR**
 
