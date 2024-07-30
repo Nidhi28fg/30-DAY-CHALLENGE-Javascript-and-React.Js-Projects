@@ -12,10 +12,11 @@ function App() {
   //Essentially, useRef is like a “box” that can hold a mutable value in its (.current) property.
   //useRef allows referencing DOM elements.
 
+
   const passwordGenerator = useCallback(() => {
     let pass = ""
     // where our password will create
-    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy"
     // it help to create new password
     if (numberAllowed) str += "0123456789"
     // 
