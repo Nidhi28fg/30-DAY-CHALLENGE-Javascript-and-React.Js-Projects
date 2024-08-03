@@ -1,21 +1,22 @@
 import React, {useId} from 'react'
-
+// rfce is a function that helps you write functions. 
+// It's a shortcut for "react function component editor."
 function InputBox({
-    label,
+    label, //The label is used for both the "From" and "To" amounts. The "From" amount is the amount that is being converted, and the "To" amount is the amount that is being converted to.
     amount,
-    onAmountChange,
-    onCurrencyChange,
-    currencyOptions = [],
+    onAmountChange, // onAmountChange is used for amount change. It is a callback function that is called when the amount is changed.
+    onCurrencyChange, //onCurrencyChange is a callback function that is called when the currency is changed. The function takes the value of the currency as an argument.
+    currencyOptions = [], // The app will not crash if an empty array is passed as an argument to the currencyOptions prop. This is because a default value is provided for currencyOptions if no value is passed.
     selectCurrency = "usd",
-    amountDisable = false,
+    amountDisable = false, // The amountDisable prop defaults to false, which means that the amount input field is enabled by default. If the user is not given an account, then the amount input field should be disabled.
     currencyDisable = false,
-    className = "",
+    className = "", // defult class name
 }) {
    const amountInputId = useId()
 
     return (
-        <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
-            <div className="w-1/2">
+        <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}> // You can add CSS from the user's CSS by using {}. This allows you to incorporate the user's styles into your component. 
+            <div className="w-1/2"> // string tailwind css
                 <label htmlFor={amountInputId}  className="text-black/40 mb-2 inline-block">
                     {label}
                 </label>
