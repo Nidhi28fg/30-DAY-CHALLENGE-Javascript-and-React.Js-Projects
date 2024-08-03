@@ -9,9 +9,14 @@ function useCurrencyInfo(currency){
         .then((res) => setData(res[currency])) // Now in res, data is stored as a json object.
         //All data is passed in SetData. Now setData(res[currency]) helps to access the currency data.
             console.log(data);
-    }, [currency])
+    }, [currency]) // The function rerenders whenever there is a change in the currency dipendancy. The function takes the currency as an argument.
+    
     console.log(data);
     return data
 }
 
 export default useCurrencyInfo;
+
+// This is a custom hook that uses useState. 
+// It takes a currency as an argument, and then fetches currency data from an API.
+// The data is then stored in the state of the component that uses the hook.
