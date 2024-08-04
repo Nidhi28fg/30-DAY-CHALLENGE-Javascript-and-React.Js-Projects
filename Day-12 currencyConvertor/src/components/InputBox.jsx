@@ -14,6 +14,7 @@ function InputBox({
 }) {
    const amountInputId = useId()
 
+    
     return (
         <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}> // You can add CSS from the user's CSS by using {}. This allows you to incorporate the user's styles into your component. 
             <div className="w-1/2"> // string tailwind css
