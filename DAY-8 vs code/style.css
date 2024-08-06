@@ -65,10 +65,12 @@ heroSection{
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    height: 600px;
+    border-bottom: #333333;
 }
 
 .heroSection1 {
-    padding-top: 90px;
+    padding-top: 70px;
     width: 40%;
 }
 .heroSection2 {
@@ -76,12 +78,23 @@ heroSection{
 }
 
 .heroSection2 img {
-    width: 700px;
-    height: 110%;
+    width: 100%;
+    height: 80%;
 }
 
 .hersection1nav {
     font-size: x-small;
+}
+
+header button {
+    width: 100px;
+ height: 30px;
+ background-color: #0078d4;
+ color: white;
+ border: none;
+ font-size: small;
+ border-radius: 4%;
+ font-weight: 600;
 }
 
 .herosectionbutton {
@@ -112,5 +125,42 @@ heroSection{
 .hereosectionh1{
     font-style: normal;
     font-size: 3rem;
+    font-weight: 500;
+}
+
+main {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px ;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(243, 236, 236, 0.352);
+}
+
+main div {
+    list-style: none;
+}
+
+.mainlist {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.mainlist li {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.mainlist li img {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left:-40px;
+    top:-10px
+}
+
+main h2 {
+    font-size: 2rem;
     font-weight: 500;
 }
