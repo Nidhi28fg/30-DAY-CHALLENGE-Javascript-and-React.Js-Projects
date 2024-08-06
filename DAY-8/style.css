@@ -1,3 +1,26 @@
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
+}
+
+code,kbd,pre,samp,code * {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace !important
+}
+
+
+
 header{
     padding-left: 90px;
     padding-right: 90px;
@@ -40,4 +63,54 @@ header{
 heroSection{
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heroSection1 {
+    padding-top: 90px;
+    width: 40%;
+}
+.heroSection2 {
+    width: 70%;
+}
+
+.heroSection2 img {
+    width: 700px;
+    height: 110%;
+}
+
+.hersection1nav {
+    font-size: x-small;
+}
+
+.herosectionbutton {
+ width: 225px;
+ height: 50px;
+ background-color: #0078d4;
+ color: white;
+ border: none;
+ font-size: medium;
+ padding-top: 4px;
+ border-radius: 4%;
+ font-weight: 700;
+}
+
+.heroSectionspan {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 12px;
+        border-radius: 32px;
+        background-color: rgba(60, 50, 50, 0.01);
+        border: 2px solid rgba(0, 0, 0, 0.07);
+        color: #333333;
+        width: max-content;
+        margin-bottom: 8px
+  
+}
+
+.hereosectionh1{
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: 500;
 }
