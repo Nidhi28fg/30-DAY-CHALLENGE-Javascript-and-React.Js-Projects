@@ -30,9 +30,8 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 ![image](https://github.com/user-attachments/assets/85fa72fc-188a-43bb-a335-389ae884d338)
 
 ### Week 2: React Projects
-**Day 8:** **Quiz App (Part 1)**
-- Create a quiz application with multiple-choice questions
-- Display one question at a time with options
+**Day 8:** **Vs Code**
+![image](https://github.com/user-attachments/assets/cbaa5233-6c40-4acf-901a-51bad7a8e92c)
 
 **Day-9 ADD REDUCE NUMBER**
 
