@@ -1,0 +1,43 @@
+header{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 550;
+    background-color: rgba(0, 0, 0, 0);
+    height: 58px;
+}
+.nav1 a {
+    padding-left: 20px;
+    
+}
+
+.headerline{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.updates-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    padding-bottom: 50px;
+}
+
+.updates-banner {
+    background-color: var(--banner-background) !important;
+    color: var(--banner-text);
+    font-size: 14px;
+    position: relative;
+    line-height: 150%;
+    z-index: 1;
+}
+
+heroSection{
+    display: flex;
+    justify-content: space-between;
+}
