@@ -76,6 +76,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 - Display detailed information for selected movies
 - Add loading indicators and error handling
 
+
 **Day 20:** **Shopping Cart (Part 1)**
 - Build a shopping cart interface using React
 - Implement add to cart functionality
