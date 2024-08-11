@@ -8,6 +8,7 @@ Here's a 30-day JavaScript project plan that will take you from beginner to adva
 ![image](https://github.com/user-attachments/assets/942e99e2-2969-4256-9a37-f680e13e2a9b)
 
 **Day 3:** **Calculator (Basic)**
+
 - Build a basic calculator using vanilla JavaScript
 - Implement addition, subtraction, multiplication, and division
 ![image](https://github.com/user-attachments/assets/852fe64f-4cd1-4cab-8067-a331fb78102c)
