@@ -1,0 +1,12 @@
+{
+  "name": "30-day-challenge-javascript-and-react.js-projects-2",
+  "version": "1.0.0",
+  "description": "Here's a 30-day JavaScript project plan that will take you from beginner to advanced levels, incorporating React.js as you progress. Each day will focus on a specific project or concept, progressively increasing in complexity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
