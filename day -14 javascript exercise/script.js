@@ -65,3 +65,22 @@ checkVotingEligibility(user); // Output: Hi Harkirat, you are legal to vote.
 
 
 //Putting It All Together
+function greetAndCheckEligibility(user) {
+    // Greet the user with their name and age
+    greetUser(user);
+
+    // Greet the user with their gender
+    greetUserWithGender(user);
+
+    // Check if the user is legal to vote
+    checkVotingEligibility(user);
+}
+
+// Example usage:
+let userWithDetails = {
+    name: "Harkirat",
+    age: 21,
+    gender: "male"
+};
+
+greetAndCheckEligibility(userWithDetails);
