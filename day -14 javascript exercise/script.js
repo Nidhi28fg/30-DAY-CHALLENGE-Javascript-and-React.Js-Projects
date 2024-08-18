@@ -1,4 +1,23 @@
-// 
+// 1. Variables
+// Variables are used to store data. In JavaScript, you declare variables using var, let, or const.
+let name = "John";     // Variable that can be reassigned
+const age = 30;        // Constant variable that cannot be reassigned
+var isStudent = true;  // Older way to declare variables, function-scoped
+
+// Create a variable for each of the following: your favorite color, your height in centimeters, and whether you like pizza. Use appropriate variable declarations (let, const, or var). Try logging it using console.log
+ 
+const favoriteColor = "Blue"; // favorite color is unlikely to change
+let heightInCm = 165; // height is generally fixed, but 'let' allows reassignment if needed
+var likesPizza = true; // using var for broader scope, though 'let' is usually better
+
+// Logging the variables to the console
+console.log("Favorite Color:", favoriteColor);
+console.log("Height in cm:", heightInCm);
+console.log("Likes Pizza:", likesPizza);
+
+
+// var: Function-scoped, hoisted with undefined, allows re-declaration.
+// let: Block-scoped, hoisted without initialization (temporal dead zone), no re-declaration in the same scope.
 
 const users = [{
     name: "Harkirat",
