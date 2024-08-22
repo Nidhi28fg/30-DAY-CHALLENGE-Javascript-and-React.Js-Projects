@@ -1,4 +1,4 @@
-import React, {useId} from 'react'
+import React, {useId} from 'react' // useId help to create unique id
 // rfce is a function that helps you write functions. 
 // It's a shortcut for the "react function component editor."
 function InputBox({
