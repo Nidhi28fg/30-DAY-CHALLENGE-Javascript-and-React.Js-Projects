@@ -8,14 +8,14 @@ function App() {
   const [amount, setAmount] = useState(0) // 
   const [from, setFrom] = useState("USD")
   const [to, setTo] = useState("inr")
-  const [convertedAmount, setConvertedAmount] = useState(0)
+  const [convertedAmount, setConvertedAmount] = useState(0) // it help to write the coverted result
 
-  const currencyInfo = useCurrencyInfo(from)
+  const currencyInfo = useCurrencyInfo(from) //when you write from in usestate...That's help
 
-  const options = Object.keys(currencyInfo)
+  const options = Object.keys(currencyInfo) //Object.keys() returns an array of keys from an object. In this case, we're using it to get the keys from the currencyInfo object.
 
-  const swap = () => {ll
-    setFrom(to)
+  const swap = () => {
+    setFrom(to) // We put the value of "to" in "setFrom". This allows us to swap the values of "from" and "to" when the user clicks the "Swap" button. 
     setTo(from)
     setConvertedAmount(amount)
     setAmount(convertedAmount)
