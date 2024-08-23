@@ -49,6 +49,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} /> //routerProvider never works without router props. If you try to use routerProvider without router props, you'll get an error message.
   </React.StrictMode>,
 )
