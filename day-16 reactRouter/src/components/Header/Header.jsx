@@ -34,6 +34,7 @@ export default function Header() {
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
                                 // In the NavLink component, we use the callback className function. This function allows us to specify the class name for the link based on the current state of the component.
+                                // also add a link by using "to" in this Navlink. The "to" adds data in isActive.
                                 <NavLink
                                 to="/"
                                     className={({isActive}) =>
