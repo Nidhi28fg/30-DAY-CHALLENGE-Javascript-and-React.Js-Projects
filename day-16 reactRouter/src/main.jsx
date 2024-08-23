@@ -33,8 +33,8 @@ import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
+    <Route path='/' element={<Layout />}> //it is a parents path
+      <Route path='' element={<Home />} /> // it is a children parents path
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='user/:userid' element={<User />} />
@@ -45,7 +45,7 @@ const router = createBrowserRouter(
        />
     </Route>
   )
-)
+)k
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
