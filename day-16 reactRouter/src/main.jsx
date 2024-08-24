@@ -9,7 +9,7 @@ import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
-
+// If you called an API, you must also import it here. This is a required step for using an API.
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
