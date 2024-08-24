@@ -39,8 +39,9 @@ const router = createBrowserRouter(
       <Route path='contact' element={<Contact />} />
       <Route path='user/:userid' element={<User />} />
       <Route 
-      loader={githubInfoLoader} // The loader works faster than useEffect. This is because useEffect runs after the initial render, but the loader runs before the initial render.
-      path='github' 
+      loader={githubInfoLoader} 
+      // In the loader, we store the API variable. This is because the loader runs before the initial render, but the useEffect runs after the initial render. 
+        path='github' 
       element={<Github />}
        />
     </Route>
