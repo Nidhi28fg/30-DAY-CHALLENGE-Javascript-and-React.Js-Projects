@@ -7,7 +7,8 @@ function Layout() {
   return (
     <>
     <Header/>
-    <Outlet />
+    <Outlet /> //The outlet in the Layout component helps to create a dynamic website. 
+      //It allows the user to navigate to different pages without reloading the entire website.
     <Footer />
     </>
   )
