@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
-
+//UseLoaderData helps to get data from an API. This example uses useLoaderData to get data from the GitHub API.
 function Github() {
-    const data = useLoaderData()
+    const data = useLoaderData() // This code uses the useLoaderData hook to retrieve data from the GitHub API. The data is then stored in the data variable. 
     // const [data, setData] = useState([]) // useEffect works when the component reloads. In this example, the component is Github.jsx. When the component reloads, the data is retrieved from the server.
     // useEffect(() => {
     //  fetch('https://api.github.com/users/Nidhi28fg')
