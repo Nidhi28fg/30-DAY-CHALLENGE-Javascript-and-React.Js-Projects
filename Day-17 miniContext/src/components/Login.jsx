@@ -29,3 +29,5 @@ function Login() {
 }
 
 export default Login
+
+// Redux, Redux Toolkit, React-Redux, Context API, and Zustand are all state management techniques.
