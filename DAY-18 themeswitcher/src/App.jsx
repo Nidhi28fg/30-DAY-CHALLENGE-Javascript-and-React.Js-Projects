@@ -16,15 +16,20 @@ function App() {
     setThemeMode("dark")
   }
 
-  // actual change in theme
-
   useEffect(() => {
     document.querySelector('html').classList.remove("light", "dark")
+    //This will remove both light and dark modes.
     document.querySelector('html').classList.add(themeMode)
+    // this will add themeMode.
   }, [themeMode])
-  
+
+  //useEffect is a React hook that runs after the render, 
+  // and then every time the dependency array changes. 
+  // This is a useful hook for managing side effects in functional components.
 
   return (
+// All provider functions are defined above. 
+    // Now you have to wrap all the code in a ThemeProvider so that it can directly access the value of the themeMode.
     <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
       <div className="flex flex-wrap min-h-screen items-center">
           <div className="w-full">
