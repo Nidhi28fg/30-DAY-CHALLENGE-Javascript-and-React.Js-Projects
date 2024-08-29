@@ -9,9 +9,12 @@ export default function Card() {
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
+                    <h2 className="dark:text-white" >Nidhi Singh Bhadoria</h2>
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                        Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                    Front-End Developer | Crafting Interactive & Responsive User Interfaces
                     </h5>
+                    <p className="dark:text-white" >As a passionate Front-End Developer, I specialize in creating dynamic, responsive, and visually appealing websites. With a strong foundation in HTML, CSS, JavaScript, and experience with frameworks like React.js, I bring designs to life, ensuring seamless user experiences across all devices. My expertise lies in translating complex requirements into functional, user-friendly interfaces, leveraging modern web technologies and best practices.</p>
+
                 </a>
                 <div className="flex items-center mt-2.5 mb-5">
                     <svg
