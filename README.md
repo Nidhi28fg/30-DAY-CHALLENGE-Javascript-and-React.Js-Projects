@@ -1,5 +1,9 @@
 Here's a 30-day JavaScript project plan that will take you from beginner to advanced levels, incorporating React.js as you progress. Each day will focus on a specific project or concept, progressively increasing in complexity.
 
+How to open file in vs code
+1. install npm
+2. then run the commond on the terminal - npm run dev start
+
 ### Week 1: Fundamentals and Basic JavaScript Projects
 **Day 1:** **color changer**
 ![image](https://github.com/user-attachments/assets/360b8b88-c0dd-4296-b7ec-770a13ea7181)
