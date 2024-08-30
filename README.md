@@ -70,8 +70,8 @@ How to open the file in vs code
 - Fetch and display weather data
 
 **Day 17:** **miniContext**
-- Rebuild your to-do list app using React
-- Use state management to handle adding and deleting items
+- ![image](https://github.com/user-attachments/assets/c17ea75f-3429-4171-ac24-9188d1391e2e)
+
 
 **Day 18:** **themeswitcher**
 
