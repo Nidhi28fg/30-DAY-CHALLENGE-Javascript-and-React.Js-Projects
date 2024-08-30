@@ -61,21 +61,22 @@ How to open the file in vs code
 - Calculate and display the total expenses
 
 ### Week 3: Advanced JavaScript and Introduction to React
-**Day 15:** **Weather App with React (Part 1)**
+**Day 15:** **day-16 reactRouter)**
 - Rebuild your weather app using React
 - Set up a new React project and create components
 
-**Day 16:** **Weather App with React (Part 2)**
+**Day 16:** **reactRouter**
 - Implement state management with `useState` and `useEffect`
 - Fetch and display weather data
 
-**Day 17:** **To-Do List with React**
-- Rebuild your to-do list app using React
-- Use state management to handle adding and deleting items
+**Day 17:** **miniContext**
+- ![image](https://github.com/user-attachments/assets/c17ea75f-3429-4171-ac24-9188d1391e2e)
 
-**Day 18:** **Movie Search App (Part 1)**
-- Create a movie search app using a public movie API and React
-- Implement search functionality and display results
+
+**Day 18:** **themeswitcher**
+
+![image](https://github.com/user-attachments/assets/63d56486-1743-484c-8728-bcfffa65e116)
+
 
 **Day 19:** **Movie Search App (Part 2)**
 - Display detailed information for selected movies
