@@ -73,9 +73,9 @@ How to open the file in vs code
 - Rebuild your to-do list app using React
 - Use state management to handle adding and deleting items
 
-**Day 18:** **Movie Search App (Part 1)**
-- Create a movie search app using a public movie API and React
-- Implement search functionality and display results
+**Day 18:** **Movie Search App**
+![image](https://github.com/user-attachments/assets/63d56486-1743-484c-8728-bcfffa65e116)
+
 
 **Day 19:** **Movie Search App (Part 2)**
 - Display detailed information for selected movies
