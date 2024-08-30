@@ -6,19 +6,27 @@ import TodoItem from './components/TodoItem'
 
 function App() {
   const [todos, setTodos] = useState([])
-
+    //TODOS is an array in which the object has an ID, a description, and a completion status.
+// YOU HAVE ALL TODO IN THE TODOS
+ 
+  //All methods are defined in the code.
   const addTodo = (todo) => {
     setTodos((prev) => [{id: Date.now(), ...todo}, ...prev] )
+
+    //The setTodos prev gives you the previous todos. The ...todo helps to add current todos. 
+    // The ...prev helps to add previous todos. To give a dynamic ID, you must use date.now(). 
+ 
+  
   }
 
   const updateTodo = (id, todo) => {
     setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo )))
-
-    
   }
 
   const deleteTodo = (id) => {
     setTodos((prev) => prev.filter((todo) => todo.id !== id))
+    // When you use a filter, a new array is created. 
+    //The filter removes the id from the array.
   }
 
   const toggleComplete = (id) => {
@@ -28,7 +36,7 @@ function App() {
       prevTodo.id === id ? { ...prevTodo, 
         completed: !prevTodo.completed } : prevTodo))
   }
-
+  // Toggling a value means setting a true value to false, or a false value to true.
   useEffect(() => {
     const todos = JSON.parse(localStorage.getItem("todos"))
 
