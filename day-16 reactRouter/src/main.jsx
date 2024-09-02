@@ -46,7 +46,7 @@ const router = createBrowserRouter(
        />
     </Route>
   )
-)k
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
