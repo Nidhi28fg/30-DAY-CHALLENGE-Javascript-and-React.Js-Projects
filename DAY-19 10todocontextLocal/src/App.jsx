@@ -12,7 +12,7 @@ function App() {
   //All methods are defined in the code.
   const addTodo = (todo) => {
     setTodos((prev) => [{id: Date.now(), ...todo}, ...prev] )
-
+    //The seTodos((prev)) => [] is used to create a new array by using the previous value.
     //The setTodos prev gives you the previous todos. The ...todo helps to add current todos. 
     // The ...prev helps to add previous todos. To give a dynamic ID, you must use date.now(). 
  
@@ -21,6 +21,8 @@ function App() {
 
   const updateTodo = (id, todo) => {
     setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo )))
+    //The updateTodo function is used to update a todo. The id parameter is the id of the todo to update. 
+    //The prevtodo.id is the previous id of the todo. The id is the id of the todo to update.
   }
 
   const deleteTodo = (id) => {
@@ -53,7 +55,7 @@ function App() {
 
 
   return (
-    <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
+    <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}> 
       <div className="bg-[#172842] min-h-screen py-8">
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
