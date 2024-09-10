@@ -39,6 +39,9 @@ function TodoItem({ todo }) {
               value={todoMsg}
               onChange={(e) => setTodoMsg(e.target.value)}
               readOnly={!isTodoEditable}
+            // In React, readonly is used to prevent users from editing the value of an input field.
+            //It can be used on any input field, but is most commonly used on text fields. 
+            //When readonly is set to true, the user can still select the field and copy the value, but cannot edit it.
           />
           {/* Edit, Save Button */}
           <button
