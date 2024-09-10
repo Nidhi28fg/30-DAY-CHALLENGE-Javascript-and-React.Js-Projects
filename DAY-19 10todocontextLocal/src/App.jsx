@@ -27,8 +27,8 @@ function App() {
 
   const deleteTodo = (id) => {
     setTodos((prev) => prev.filter((todo) => todo.id !== id))
-    // When you use a filter, a new array is created. 
-    //The filter removes the id from the array.
+    // IDs that do not match the todo ID are kept, while those that do are removed. 
+    //When you apply a filter, a new array is created, and the matching IDs are filtered out."
   }
 
   const toggleComplete = (id) => {
@@ -38,20 +38,30 @@ function App() {
       prevTodo.id === id ? { ...prevTodo, 
         completed: !prevTodo.completed } : prevTodo))
   }
-  // Toggling a value means setting a true value to false, or a false value to true.
+  // Toggling a value means setting a true value to false, or a false value to true. 
+  //In this case, we are toggling the completed value of a todo item.
+ 
   useEffect(() => {
     const todos = JSON.parse(localStorage.getItem("todos"))
+    //JSON helps to store data in a format that can be easily shared and understood.
+    // The localStorage.getItem() method in JavaScript is used to get an item from the local storage.
 
     if (todos && todos.length > 0) {
+      // todos && todos.length is a JavaScript expression that evaluates to true if todos is defined and has a length greater than 0. 
+      //If this expression is true, then the if block is executed and the todos array is set to the value of todos.
       setTodos(todos)
     }
   }, [])
+ 
+  //[] is an empty array. In this code, it is used in the second useEffect to indicate that
+  //this effect should only run when the component is first mounted.
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos))
+    // localStorage.setItem is a method that stores data in the browser's local storage.
   }, [todos])
   
-
+// We can use multiple useEffects at the same time. This is a very useful feature.
 
 
   return (
