@@ -4,11 +4,15 @@ import { useTodo } from '../contexts/TodoContext';
 function TodoItem({ todo }) {
   const [isTodoEditable, setIsTodoEditable] = useState(false)
   const [todoMsg, setTodoMsg] = useState(todo.todo)
+  // todo.todo is the value of the todo item. 
+  //The todo item is the todo object that is passed into the TodoItem component.
   const {updateTodo, deleteTodo, toggleComplete} = useTodo()
-
+ 
   const editTodo = () => {
     updateTodo(todo.id, {...todo, todo: todoMsg})
+    //{...todo means spread all the values and properties of todo. Then todo:todoMsg means which value we want to update.}
     setIsTodoEditable(false)
+    // After the todo is updated, setIsTodoEditable is set to false, which means that the todo can no longer be edited.
   }
   const toggleCompleted = () => {
     //console.log(todo.id);
