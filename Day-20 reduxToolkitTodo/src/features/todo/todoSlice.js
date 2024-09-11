@@ -21,8 +21,12 @@ export const todoSlice = createSlice({
                 text: action.payload
             }
             state.todos.push(todo)
+            //state.todos.push(todo) is an example of updating state by using push.
         },
         removeTodo: (state, action) => {
+            //In Redux toolkit, the action is an object that describes the changes to the state. 
+            //It has a type property that indicates the action that was performed, and 
+            //a payload property that contains the data that was changed.
             state.todos = state.todos.filter((todo) => todo.id !== action.payload )
         },
     }
@@ -31,3 +35,4 @@ export const todoSlice = createSlice({
 export const {addTodo, removeTodo} = todoSlice.actions
 
 export default todoSlice.reducer
+
