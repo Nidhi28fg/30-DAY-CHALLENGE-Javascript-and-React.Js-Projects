@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {useDispatch} from 'react-redux'
+//In this code, useDispatch is used to dispatch an action to the Redux store.
 import {addTodo} from '../features/todo/todoSlice' 
 
 function AddTodo() {
